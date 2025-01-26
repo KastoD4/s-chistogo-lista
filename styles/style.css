@@ -1,9 +1,10 @@
 body {
   margin: 0;
-  /* background-color: #1e1e1e; */
+  background-color: #1e1e1e;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
 }
+
 h1,
 h2,
 h3,
@@ -16,4 +17,57 @@ ol,
 blockquote {
   margin: 0;
   padding: 0;
+}
+/* Общий стиль для всех кроме main */
+.content-section {
+  width: 360px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+/* Стиль для чёрных карточек */
+.content-section_theme_dark {
+  background-color: rgb(19, 19, 19);
+}
+/* Стиль для жёлтых карточек */
+.content-section_theme_bright {
+  background-color: rgb(254, 228, 42);
+}
+/* Стили контейнера шапки */
+.header {
+  padding: 24px 20px;
+  display: flex;
+  height: 132px;
+}
+/* Стиль логотипа */
+.header__logo-image {
+  width: 78px;
+  height: 15px;
+}
+/* Стили для контейнера меню*/
+.header__menu {
+  margin-left: auto
+}
+/* Стили для списка меню */
+.header__menu-list {
+  list-style: none;
+}
+/* Стили для пунктов списка */
+.header__menu-list {
+  padding-bottom: 12px;
+}
+/* Стили для ссылок в меню */
+.header__menu-link {
+  text-decoration: none;
+  border-bottom: 1px solid;
+
+}
+/* Цвет для списка меню и ссылок */
+.header__menu-list,
+.header__menu-link {
+  color: rgb(245, 245, 245);
+}
+/* Сыллка при наведении */
+.header__menu-link:hover {
+  color: blue;
+  border-bottom: none;
 }
