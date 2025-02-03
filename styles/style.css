@@ -36,9 +36,8 @@ blockquote {
 }
 /* Header */
 .header {
-  padding: 24px 20px;
   display: flex;
-  justify-content: space-between;
+  padding: 24px 20px;
 }
 
 .header__logo-image {
@@ -46,10 +45,14 @@ blockquote {
   height: 15.43px;
 }
 
+.header__menu {
+  margin-left: auto;
+}
+
 .header__menu-list {
   display: flex;
   flex-direction: column;
-  row-gap: 12px;
+  gap: 12px;
   list-style-type: none;
 }
 
