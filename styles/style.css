@@ -118,3 +118,29 @@ blockquote {
   margin-top: 24px;
   line-height: 1.35em;
 }
+/* Reasons */
+.reasons {
+  padding: 40px 20px 39px 20px;
+}
+.content-section__subtitle {
+  margin-bottom: 32px;
+  font-family: 'EB Garamond', 'Times New Roman', serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.15em;
+}
+.content-section__introduction {
+  margin-bottom: 32px;
+  font-size: 20px;
+  line-height: 1.35em;
+}
+.content-section__list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-left: 16px;
+  line-height: 1.35em;
+}
+.content-section__list-accent {
+  font-weight: bold;
+}
