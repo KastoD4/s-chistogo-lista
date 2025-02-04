@@ -79,7 +79,7 @@ blockquote {
   font-family: 'EB Garamond', 'Times New Roman', serif;
   font-weight: 400;
   font-size: 72px;
-  line-height: 100%;
+  line-height: 1em;
 }
 .accent-span {
   display: block;
@@ -89,4 +89,32 @@ blockquote {
 }
 .text-right {
   text-align: right;
+}
+/* Intro */
+.intro {
+  padding-right: 20px;
+  padding-bottom: 38px;
+  padding-left: 20px;
+
+}
+
+.intro__heading {
+  display: flex;
+  color: rgb(204, 204, 204);
+}
+
+.intro__title {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2em;
+}
+.intro__date {
+  white-space: nowrap;
+}
+.intro__main-text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 24px;
+  line-height: 1.35em;
 }
