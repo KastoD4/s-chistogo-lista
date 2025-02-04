@@ -65,4 +65,28 @@ blockquote {
   text-decoration: none;
   border-bottom: 1px solid rgb(245, 245, 245);
 }
+/* Cover */
+.cover {
+  background-image: url(/images/cover.svg);
+  background-repeat: no-repeat;
+  background-size: 95% auto;
+  background-position: right center;
+  min-height: 258px;
+  padding: 7px 24px 30px 20px;
 
+}
+.cover__title {
+  font-family: 'EB Garamond', 'Times New Roman', serif;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 100%;
+}
+.accent-span {
+  display: block;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
