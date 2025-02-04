@@ -1,0 +1,1 @@
+https://github.com/KastoD4/s-chistogo-lista.git
