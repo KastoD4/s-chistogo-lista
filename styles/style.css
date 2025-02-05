@@ -73,29 +73,29 @@ blockquote {
   background-position: right center;
   min-height: 258px;
   padding: 7px 24px 30px 20px;
+}
 
-}
 .cover__title {
-  font-family: 'EB Garamond', 'Times New Roman', serif;
-  font-weight: 400;
-  font-size: 72px;
-  line-height: 100%;
+  font: 400 72px/100% 'EB Garamond', 'Times New Roman', serif;
 }
+
 .accent-span {
   display: block;
 }
+
 .text-center {
   text-align: center;
 }
+
 .text-right {
   text-align: right;
 }
+
 /* Intro */
 .intro {
   padding-right: 20px;
   padding-bottom: 38px;
   padding-left: 20px;
-
 }
 
 .intro__heading {
@@ -108,9 +108,11 @@ blockquote {
   font-weight: 400;
   line-height: 120%;
 }
+
 .intro__date {
   white-space: nowrap;
 }
+
 .intro__main-text {
   display: flex;
   flex-direction: column;
@@ -122,18 +124,18 @@ blockquote {
 .reasons {
   padding: 40px 20px 39px 20px;
 }
+
 .content-section__subtitle {
   margin-bottom: 32px;
-  font-family: 'EB Garamond', 'Times New Roman', serif;
-  font-weight: 500;
-  font-size: 28px;
-  line-height: 115%;
+  font: 500 28px/115% 'EB Garamond', 'Times New Roman', serif;;
 }
+
 .content-section__introduction {
   margin-bottom: 32px;
   font-size: 20px;
   line-height: 135%;
 }
+
 .content-section__list {
   display: flex;
   flex-direction: column;
@@ -141,6 +143,7 @@ blockquote {
   padding-left: 16px;
   line-height: 135%;
 }
+
 .content-section__list-accent {
   font-weight: bold;
 }
@@ -148,36 +151,65 @@ blockquote {
 .how-to {
   padding: 40px 20px 60px 20px;
 }
+
 .cards-list {
   display: flex;
   flex-direction: column;
   gap: 32px;
   list-style-type: none;
 }
+
 .card {
   border-radius: 30px;
   padding: 20px;
 }
+
 .card_theme_dark {
   background-color: rgb(52, 52, 52);
 }
+
 .card__author-photo {
   width: 100px;
   height: 100px;
   margin-bottom: 8px;
 }
+
 .card__author-name {
   font-weight: bold;
   line-height: 122%;
   margin-bottom: 8px;
 }
+
 .card__title {
-  font-family: 'EB Garamond', 'Times New Roman', serif;
-  font-weight: 500;
-  font-size: 22px;
-  line-height: 130%;
+  font: 500 22px/130% 'EB Garamond', 'Times New Roman', serif;
   margin-bottom: 8px;
 }
+
 .card__text {
   line-height: 135%;
+}
+/* Footer */
+.footer {
+  display: flex;
+  padding: 20px;
+  border-top: 1px solid rgb(254, 228, 42);;
+}
+
+.footer__copy {
+  line-height: 124%;
+}
+
+.footer_list {
+  display: flex;
+  gap: 17px;
+  margin-left: auto;
+  list-style-type: none;
+  line-height: 100%;
+}
+
+.footer__links {
+  font-size: 14px;
+  color: rgb(245, 245, 245);
+  text-decoration: none;
+
 }
