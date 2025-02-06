@@ -18,23 +18,23 @@ blockquote {
   margin: 0;
   padding: 0;
 }
-/* For all sections except main */
+
 .content-section {
   width: 360px;
   margin: 0 auto;
   box-sizing: border-box;
 }
-/* Dark sections */
+
 .content-section_theme_dark {
   background-color: rgb(19, 19, 19);
   color: rgb(245, 245, 245);
 }
-/* Yellow sections */
+
 .content-section_theme_bright {
   background-color: rgb(254, 228, 42);
   color: rgb(19, 19, 19);
 }
-/* Header */
+
 .header {
   display: flex;
   padding: 24px 20px;
@@ -56,18 +56,18 @@ blockquote {
   list-style-type: none;
 }
 
-.header__menu-item_active:hover {
-  border-bottom: none;
-}
-
 .header__menu-link {
   color: rgb(245, 245, 245);
   text-decoration: none;
   border-bottom: 1px solid rgb(245, 245, 245);
 }
-/* Cover */
+
+.header__menu-item_active {
+  border-bottom: none;
+}
+
 .cover {
-  background-image: url(/images/cover.svg);
+  background-image: url(./../images/cover.svg);
   background-repeat: no-repeat;
   background-size: 95% auto;
   background-position: right center;
@@ -77,6 +77,7 @@ blockquote {
 
 .cover__title {
   font: 400 72px/100% 'EB Garamond', 'Times New Roman', serif;
+  color: rgb(255, 255, 255);
 }
 
 .accent-span {
@@ -91,7 +92,7 @@ blockquote {
   text-align: right;
 }
 
-/* Intro */
+
 .intro {
   padding-right: 20px;
   padding-bottom: 38px;
@@ -120,7 +121,7 @@ blockquote {
   margin-top: 24px;
   line-height: 135%;
 }
-/* Reasons */
+
 .reasons {
   padding: 40px 20px 39px 20px;
 }
@@ -147,7 +148,7 @@ blockquote {
 .content-section__list-accent {
   font-weight: bold;
 }
-/* How-to */
+
 .how-to {
   padding: 40px 20px 60px 20px;
 }
@@ -188,7 +189,7 @@ blockquote {
 .card__text {
   line-height: 135%;
 }
-/* Footer */
+
 .footer {
   display: flex;
   padding: 20px;
