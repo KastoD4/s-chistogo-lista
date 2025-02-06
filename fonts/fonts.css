@@ -1,0 +1,28 @@
+@font-face {
+   font-family: 'EB Garamond';
+   font-weight: 400;
+  src: url(./ebgaramondregular.woff2),
+    url(./ebgaramondregular.woff),
+    url(./ebgaramondregular.ttf);
+}
+@font-face {
+  font-family: 'EB Garamond';
+  font-weight: 500;
+  src: url(./ebgaramondmedium.woff2),
+    url(./ebgaramondmedium.woff),
+    url(./ebgaramondmedium.ttf);
+}
+@font-face {
+  font-family: 'Inter';
+  font-weight: 400;
+  src: url(./interregular.woff2),
+    url(./interregular.woff),
+    url(./interregular.ttf);
+}
+@font-face {
+  font-family: 'Inter';
+  font-weight: 700;
+  src: url(./interbold.woff2),
+    url(./interbold.woff),
+    url(./interbold.ttf);
+}
