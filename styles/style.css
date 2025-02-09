@@ -1,8 +1,8 @@
 body {
   margin: 0;
-  background-color: rgb(30, 30, 30);
   font-family: 'Inter', Arial, sans-serif;
   font-weight: 400;
+  background-color: rgb(30, 30, 30);
 }
 
 h1,
@@ -20,19 +20,19 @@ blockquote {
 }
 
 .content-section {
+  box-sizing: border-box;
   width: 360px;
   margin: 0 auto;
-  box-sizing: border-box;
 }
 
 .content-section_theme_dark {
-  background-color: rgb(19, 19, 19);
   color: rgb(245, 245, 245);
+  background-color: rgb(19, 19, 19);
 }
 
 .content-section_theme_bright {
-  background-color: rgb(254, 228, 42);
   color: rgb(19, 19, 19);
+  background-color: rgb(254, 228, 42);
 }
 
 .header {
@@ -57,9 +57,9 @@ blockquote {
 }
 
 .header__menu-link {
+  border-bottom: 1px solid rgb(245, 245, 245);
   color: rgb(245, 245, 245);
   text-decoration: none;
-  border-bottom: 1px solid rgb(245, 245, 245);
 }
 
 .header__menu-item_active {
@@ -67,17 +67,17 @@ blockquote {
 }
 
 .cover {
-  background-image: url(./../images/cover.svg);
-  background-repeat: no-repeat;
-  background-size: 95% auto;
-  background-position: right center;
   min-height: 258px;
   padding: 7px 24px 30px 20px;
+  background-image: url(./../images/cover.svg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 95% auto;
 }
 
 .cover__title {
-  font: 400 72px/100% 'EB Garamond', 'Times New Roman', serif;
   color: rgb(255, 255, 255);
+  font: 400 72px/100% 'EB Garamond', 'Times New Roman', serif;
 }
 
 .accent-span {
@@ -105,8 +105,8 @@ blockquote {
 }
 
 .intro__title {
-  font-size: 16px;
   font-weight: 400;
+  font-size: 16px;
   line-height: 120%;
 }
 
@@ -176,14 +176,14 @@ blockquote {
 }
 
 .card__author-name {
+  margin-bottom: 8px;
   font-weight: bold;
   line-height: 122%;
-  margin-bottom: 8px;
 }
 
 .card__title {
-  font: 500 22px/130% 'EB Garamond', 'Times New Roman', serif;
   margin-bottom: 8px;
+  font: 500 22px/130% 'EB Garamond', 'Times New Roman', serif;
 }
 
 .card__text {
@@ -192,8 +192,8 @@ blockquote {
 
 .footer {
   display: flex;
-  padding: 20px;
-  border-top: 1px solid rgb(254, 228, 42);;
+  border-top: 1px solid rgb(254, 228, 42);
+  padding: 20px;;
 }
 
 .footer__copy {
@@ -204,13 +204,13 @@ blockquote {
   display: flex;
   gap: 17px;
   margin-left: auto;
-  list-style-type: none;
   line-height: 100%;
+  list-style-type: none;
 }
 
 .footer__links {
-  font-size: 14px;
   color: rgb(245, 245, 245);
+  font-size: 14px;
   text-decoration: none;
 
 }
